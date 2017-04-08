@@ -35,7 +35,7 @@ public class BannoApp {
 			
 			// ------------------- Return Count of Financial Institutions ---------------------|
 			if (line.contains("financial institution")) {
-				if (line.contains("<p>") || line.contains("</p>") || line.contains("<h1>") || line.contains("</h1>") ) {
+				if (line.contains("financial institution") || line.contains("Financial Institution") || line.contains("Financial institution")) {
 					
 					wordCount += 1;	
 				}		
